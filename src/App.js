@@ -8,7 +8,6 @@ function App() {
   return (
   <div>
     <Header />
-    Hell from app
     <Button>Click Me</Button>
     <SecondButton>Click Me Next</SecondButton>
   </div>
