@@ -7,7 +7,7 @@ export const Button = styled.button`
 `;
 
 export const SecondButton = styled.button`
-  color: blue;
-  background: red;
+  color: white;
+  background: var(--primaryColor);
   text-transform: uppercase;
 `;

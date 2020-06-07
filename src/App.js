@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import { Button } from './components/Buttons';
-import { SecondButton } from './components/Buttons';
+import { Button } from './components/Buttons.js';
+import { SecondButton } from './components/Buttons.js';
 import Header from './components/Header'
 
 function App() {
   return (
   <div>
     <Header />
-    Hello from app
+    Hell from app
     <Button>Click Me</Button>
     <SecondButton>Click Me Next</SecondButton>
   </div>
