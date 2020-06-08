@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledHeader = () => {
+const StyledHeader = ( {title} ) => {
   return (
     <StyledWrapper>
-      <h1>Hello from Styled Header</h1>
+      <h1>{title}</h1>
       <h2 className="random">Say it like it is, sister</h2>
     </StyledWrapper>
   );
@@ -12,6 +12,16 @@ const StyledHeader = () => {
 
 const StyledWrapper = styled.section`
   background: red;
+  transition: all 2s ease-in-out;
+  h1 {
+    color: blue;
+  }
+  .random {
+    color: green;
+  }
+  &:hover {
+    background: black;
+  }
 `
 
 export default StyledHeader;
