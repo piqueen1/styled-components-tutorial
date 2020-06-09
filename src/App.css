@@ -2,10 +2,6 @@
   --primaryColor: green;
 }
 
-body {
-  margin: 2 rem;
-}
-
 .global {
   color: green;
   text-transform: capitalize;
