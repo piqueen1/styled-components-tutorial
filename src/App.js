@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import StyledHeader from './components/StyledHeader';
-import PropsButton from './components/PropsButton';
+import { PropsButton, BigButton } from './components/PropsButton';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -23,6 +23,8 @@ function App() {
       <PropsButton color='blue'>Thing One</PropsButton>
       <PropsButton color='red'>Thing Two</PropsButton>
       <PropsButton>Thing Three</PropsButton>
+      <BigButton>Big Thing</BigButton>
+      
     </div>
   );
 }
