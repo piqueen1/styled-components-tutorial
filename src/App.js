@@ -20,8 +20,8 @@ function App() {
     <div>
       <GlobalStyle />
       <StyledHeader title="Hello from App" />
-      <PropsButton color='blue'>Thing One</PropsButton>
-      <PropsButton color='red'>Thing Two</PropsButton>
+      <PropsButton color="red">Thing One</PropsButton>
+      <PropsButton color="purple">Thing Two</PropsButton>
       <PropsButton>Thing Three</PropsButton>
       <BigButton>Big Thing</BigButton>
       
