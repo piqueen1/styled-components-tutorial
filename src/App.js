@@ -1,27 +1,17 @@
+/* Finn's */
+
 import React from 'react';
 import './App.css';
-import AlternativeHeader from './components/AlternativeHeader';
-import { DangerButton, SuccessButton } from './components/PropsButton';
-import { createGlobalStyle } from 'styled-components';
-
-const GlobalStyle = createGlobalStyle`
-  * {
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-`
+import Hero from './components/Hero';
+import desert from './images/img1.jpg';
+import turtle from './images/img3.jpg';
 
 function App() {
   return (
     <div>
-      <GlobalStyle />
-      <AlternativeHeader title="Hello from App" />
-      <DangerButton big>Yikes!!!</DangerButton>
-      <SuccessButton>Yikes!!!</SuccessButton>
+      <Hero img={turtle} />
+      <Hero img={desert} />
+      <Hero big />
     </div>
   );
 };
